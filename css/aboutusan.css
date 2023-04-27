@@ -1,0 +1,52 @@
+body
+{
+    background-image: url(../imagini/fau1.jpg);
+    height: 100%;
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.transbox {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  width: 500px;
+    height: 400px;
+    margin-top: 100px;
+    float: left;
+    position: relative;
+    
+}
+
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.transbox1 {
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
+  width: 500px;
+    height: 400px;
+    margin-top: 100px;
+     margin-left: 700px;
+    position: relative;
+}
+
+.transbox1 p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+.container {
+    width: 80%;
+    height: 200px;
+    background: transparent;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+

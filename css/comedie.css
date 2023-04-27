@@ -1,0 +1,226 @@
+body{
+    background-image: url(../imagini/blue.jpg);
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 565px;
+  right: 308px;
+  width: 280px;
+}
+.open-button1 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 23px;
+  right: 28px;
+  width: 280px;
+}
+.open-button2 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 103px;
+  right: 308px;
+  width: 280px;
+}
+.open-button3 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 180px;
+  right: 28px;
+  width: 280px;
+}
+.open-button4 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 257px;
+  right: 308px;
+  width: 280px;
+}
+.open-button5 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 334px;
+  right: 28px;
+  width: 280px;
+}
+.open-button6 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 411px;
+  right: 308px;
+  width: 280px;
+}
+.open-button7 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 488px;
+  right: 28px;
+  width: 280px;
+}
+.open-button8 {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 642px;
+  right: 28px;
+  width: 280px;
+}
+a{
+    text-decoration: none;
+    
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 308px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup1 {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup2 {
+  display: none;
+  position: fixed;
+  top: 100px;
+  right: 308px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup3 {
+  display: none;
+  position: fixed;
+  top: 200px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup4 {
+  display: none;
+  position: fixed;
+  top: 300px;
+  right: 308px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup5 {
+  display: none;
+  position: fixed;
+  top: 380px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup6 {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 308px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-popup7 {
+  display: none;
+  position: fixed;
+  bottom: 0px;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+.form-container {
+min-width: 280px;
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+
+}
+.form-container input[type=text], .form-container select, .form-container input[type=submit], .form-container input[type=file], form-container p{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-container input[type=text]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+.form-container input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.6;
+}
+.form-container .cancel {
+  background-color: red;
+    padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+
+}
+
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}

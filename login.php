@@ -1,0 +1,39 @@
+<?php
+if (isset($_POST['username'])&&isset($_POST['password']))
+{
+    include("conectare.php");
+    $user=$_POST['username'];
+    $p=$_POST['password'];
+    $sql="SELECT * from useri WHERE username='$user' ";
+    if($r=mysqli_query($conn,$sql))
+    {
+        if(mysqli_num_rows($r)!=0)
+        {
+            $linie=mysqli_fetch_array($r);
+            if($linie[1]=="ancadia"&&password_verify($p,$linie[2]))
+            {
+                session_start();
+                $_SESSION['admin']=$user;
+                header("location:index4.php");
+            }
+            else
+            {
+                if(password_verify($p,$linie[2]))
+                    {
+                        session_start();
+                        $_SESSION['client']=$user;
+                        header("location:index4.php");     
+                    }
+                else
+                    header("location:index2.php");
+            }
+        }
+        else
+            header("location:index2.php");
+    }
+    else
+        header("location:index2.php");
+}
+else
+    echo "eroare";
+?>

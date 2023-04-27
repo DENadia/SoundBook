@@ -1,0 +1,26 @@
+.formular{
+   
+  position: fixed;
+  bottom: 10%;
+  left: 10%;
+  width: 100%;
+  border: 0px;
+ 
+}
+#guest{
+    position: fixed;
+    bottom:5%;
+    left:15%;
+    border:0px;
+    width: 100%;
+}
+#idd{
+    background-image: url(../imagini/poza_pp.jpg);
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
